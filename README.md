@@ -15,3 +15,7 @@ The five product photos supplied by the shop are saved in `assets/`. The bag is 
 ## Deploy
 
 Import this folder as a project in Vercel, with the Framework Preset set to **Other** and no build or output command. Vercel serves `index.html` from the project root.
+
+## Product ratings
+
+Customers can rate each product from 1 to 5 stars and update their rating later. This static, local-only version stores one rating per product in each browser, so the displayed average and count reflect that browser only; ratings are not shared or aggregated across customers or devices. Shared customer reviews require a hosted data store and server-side integration.
