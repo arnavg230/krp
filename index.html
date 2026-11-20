@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#176b56">
+  <meta name="description" content="KRP Dry Fruits — a carefully selected range of dry fruits. Browse our selection and enquire directly.">
+  <title>KRP Dry Fruits — Goodness, thoughtfully picked</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A little shop, a lot of heart <span>✳</span> Thoughtfully chosen, locally loved</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="KRP Dry Fruits home"><span class="brand-mark">K</span><span><b data-shop-name>KRP Dry Fruits</b><small>GOODNESS, THOUGHTFULLY PICKED</small></span></a>
+    <form class="search" id="search-form" role="search"><input id="search-input" type="search" placeholder="Search dry fruits…" aria-label="Search products"><button aria-label="Search">⌕</button></form>
+    <div class="header-actions"><a class="account-link" href="#about">Our story</a><button class="cart-button" id="open-cart" aria-label="Open shopping bag">Bag <span id="cart-count">0</span></button></div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow"><i></i> KRP DRY FRUITS</span><h1>Goodness,<br><em>in every handful.</em></h1><p>A carefully chosen range of dry fruits for everyday snacking, sharing, and thoughtful gifting.</p><a class="primary-button" href="#shop">Explore our dry fruits <span>→</span></a><div class="hero-note"><span class="tiny-flower">✿</span> Carefully selected, ready to enjoy</div></div>
+      <div class="hero-art" aria-label="KRP dry fruits"><div class="art-sticker">GOOD<br>FOOD<br><b>GOOD MOOD ✳</b></div><div class="hero-image"></div><div class="art-caption"><b>Everyday goodness</b><span>From KRP to your home</span></div></div>
+    </section>
+    <section class="trust-row"><div><span>♡</span><b>Carefully selected</b><small>Goodness in every handful</small></div><div><span>✳</span><b>A family business</b><small>Here to help you choose</small></div><div><span>↗</span><b>Easy to enquire</b><small>Ask us about price and packs</small></div></section>
+    <section class="shop-section" id="shop"><div class="section-heading"><div><span class="eyebrow">OUR DRY FRUIT SELECTION</span><h2>Good food, <em>good mood.</em></h2></div><a href="#shop" class="text-link" id="view-all">View all <span>→</span></a></div>
+      <nav class="filters" id="filters" aria-label="Product categories"></nav><div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><span>✿</span><h3>No matches just yet</h3><p>Try another search or browse all our finds.</p></div>
+    </section>
+    <section class="story" id="about"><div class="story-symbol">✿</div><div><span class="eyebrow">A NOTE FROM KRP</span><h2>A little goodness<br>goes a <em>long way.</em></h2><p>KRP is a family-run dry fruit business. We are happy to help you find the right selection and pack size for your home, a celebration, or a gift.</p><a href="#shop" class="text-link">Browse our selection <span>→</span></a></div><div class="story-seal">KRP<br>DRY FRUITS<br><b>GOODNESS</b></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">K</span><span><b data-shop-name>KRP Dry Fruits</b><small>GOODNESS, THOUGHTFULLY PICKED</small></span></a><span>Goodness, thoughtfully picked. <span class="heart">♥</span></span><span class="footer-contact" id="footer-contact">Ask us about availability and pricing.</span></footer>
+  <div class="scrim" id="scrim"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Your selection" aria-hidden="true"><div class="drawer-head"><div><span class="eyebrow">YOUR SELECTION</span><h2>Your bag <span id="drawer-count">(0)</span></h2></div><button id="close-cart" class="icon-button" aria-label="Close bag">×</button></div><div id="cart-items" class="cart-items"></div><div class="cart-empty" id="cart-empty"><span>♡</span><b>Your bag is ready for some goodness.</b><button class="text-link" id="keep-shopping">Explore our dry fruits →</button></div><div class="cart-bottom" id="cart-bottom"><div class="subtotal"><span>Pricing</span><b id="subtotal">On enquiry</b></div><small>We will confirm prices, pack sizes, and delivery with you.</small><button class="checkout-button" id="checkout">Enquire on WhatsApp <span>↗</span></button></div></aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
