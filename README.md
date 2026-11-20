@@ -11,13 +11,9 @@ A responsive Next.js storefront and shop-owner dashboard. The customer journey i
 - Customer ratings tied to a delivered order number and the phone number on that order.
 - A clearly marked preview mode when Supabase is not connected. Preview orders and edits remain in that browser only; they are not sent to the shop.
 
-## Run locally
+## Local preview (optional)
 
-1. Install Node.js 20.9 or newer.
-2. In this folder, run `npm install` and then `npm run dev`.
-3. Open `http://localhost:3000`.
-
-The preview mode is useful for reviewing the interface, but it is not a live store. Do not take real customer enquiries until Supabase is connected and configured.
+Local preview is only for development. It is not required to publish the live site. Without Supabase, the site displays a clearly labeled sample preview; customer enquiries and edits are not shared or saved to the shop.
 
 ## Connect Supabase
 
